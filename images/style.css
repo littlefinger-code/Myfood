@@ -1,0 +1,145 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  padding: 0rem 8rem;
+}
+
+.prep {
+  background-color: #fff7fc;
+  padding: 0.5rem 8rem;
+}
+
+.prep h2 {
+  color: #834b63;
+}
+
+.prep li {
+  text-indent: 20px;
+}
+.prep .Total {
+  font-weight: bold;
+}
+
+.prep .Preparation {
+  font-weight: bold;
+}
+
+.prep .Cooking {
+  font-weight: bold;
+}
+
+.ingredients h3 {
+  color: #987464;
+  font-size: x-large;
+}
+
+.ingredients ul {
+  text-indent: 20px;
+}
+
+.Instruction h4 {
+  color: #a27d78;
+  font-size: x-large;
+}
+
+.Beat_the_egg,
+.Vallery,
+.Callory,
+.Daenearys,
+.Zoe {
+  font-weight: bold;
+}
+
+.Nutrition {
+  margin-top: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+.Nutrition h5 {
+  font-size: x-large;
+  margin-bottom: 0.5rem;
+}
+
+.Nutrition p {
+  margin-bottom: 1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+}
+
+th,
+td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+th {
+  font-weight: bold;
+}
+
+td {
+  color: black;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+  .container,
+  .prep {
+    padding: 0 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container,
+  .prep {
+    padding: 0 1.5rem;
+  }
+
+  .ingredients h3,
+  .Instruction h4,
+  .Nutrition h5 {
+    font-size: 1.2rem;
+  }
+
+  table {
+    font-size: 0.9rem;
+  }
+}
+/* Mobile Responsive */
+@media (max-width: 480px) {
+  .container,
+  .prep {
+    padding: 0 1rem;
+  }
+
+  body {
+    font-size: 0.9rem;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  table,
+  th,
+  td {
+    display: block;
+    width: 100%;
+  }
+
+  th,
+  td {
+    text-align: left;
+    padding: 0.5rem;
+  }
+}
